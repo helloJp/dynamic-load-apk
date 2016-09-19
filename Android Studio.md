@@ -12,3 +12,11 @@
      
 ####上传路径在根目录下build.gradle修改
     def dlPath = '/sdcard/DynamicLoadHost'
+    
+---
+>以下为个人的AS导入运行方式：
+
+* 1.直接运行子项目。
+* 2.拷贝子项目build/outputs/apk下的 .apk文件到设备上<br/>
+	我这里使用的是模拟器，可直接 adb push [apk路径] [目标手机存储位置]
+* 3.愉快开始玩耍。
